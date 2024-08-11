@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Challenge-2-Bot-Battlr/static/css/main.df2ba302.chunk.css",
+    "main.js": "/Challenge-2-Bot-Battlr/static/js/main.f6e2ead4.chunk.js",
+    "main.js.map": "/Challenge-2-Bot-Battlr/static/js/main.f6e2ead4.chunk.js.map",
+    "runtime-main.js": "/Challenge-2-Bot-Battlr/static/js/runtime-main.98e9e6f7.js",
+    "runtime-main.js.map": "/Challenge-2-Bot-Battlr/static/js/runtime-main.98e9e6f7.js.map",
+    "static/js/2.6b5b4de8.chunk.js": "/Challenge-2-Bot-Battlr/static/js/2.6b5b4de8.chunk.js",
+    "static/js/2.6b5b4de8.chunk.js.map": "/Challenge-2-Bot-Battlr/static/js/2.6b5b4de8.chunk.js.map",
+    "index.html": "/Challenge-2-Bot-Battlr/index.html",
+    "static/css/main.df2ba302.chunk.css.map": "/Challenge-2-Bot-Battlr/static/css/main.df2ba302.chunk.css.map",
+    "static/js/2.6b5b4de8.chunk.js.LICENSE.txt": "/Challenge-2-Bot-Battlr/static/js/2.6b5b4de8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98e9e6f7.js",
+    "static/js/2.6b5b4de8.chunk.js",
+    "static/css/main.df2ba302.chunk.css",
+    "static/js/main.f6e2ead4.chunk.js"
+  ]
+}
