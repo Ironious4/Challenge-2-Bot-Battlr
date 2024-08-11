@@ -18,7 +18,7 @@ function BotsPage() {
   const handleBotDelete = async (botToDelete) => {
     try {
       // send delete request to the backend
-      await fetch(`http://localhost:3000/bots/${botToDelete.id}`, {
+      await fetch(`https://my-json-server.typicode.com/Ironious4/Challenge-2-Bot-Battlr/bots/${botToDelete.id}`, {
         method: "DELETE",
       });
       // Remove the bot from the army if it's in the army
