@@ -1,5 +1,6 @@
 import React from "react";
 
+//Object mapping bot types to corresponding icon classes
 const botTypeClasses = {
   Assault: "icon military",
   Defender: "icon shield",
@@ -9,13 +10,22 @@ const botTypeClasses = {
   Captain: "icon star",
 };
 
-function BotCard({ bot }) {
-  return (
+function BotCard({ bot, onClick, onBotDelete}) {
+
+//Event handler for the delete request
+const handleDelete = async (e) => {
+  e.stopPropagation();   // Prevents triggering the card's onClick event when the delete button is clicked
+  onBotDelete(bot);
+
+ };
+
+ return (
+    //Styling for the BotCollection
     <div className="ui column">
       <div
         className="ui card"
         key={bot.id}
-        onClick={() => console.log("add code to connect event listener")}
+        onClick={onClick} //Handles adding and removing bot from the army when bot is clicked
       >
         <div className="image">
           <img alt="oh no!" src={bot.avatar_url} />
@@ -47,9 +57,9 @@ function BotCard({ bot }) {
             <div className="ui center aligned segment basic">
               <button
                 className="ui mini red button"
-                onClick={() =>
-                  console.log("add code to connect event listener")
-                }
+                 onClick={handleDelete} //Deletes bots from the BotCollection when clicked
+          
+               
               >
                 x
               </button>
@@ -60,5 +70,4 @@ function BotCard({ bot }) {
     </div>
   );
 }
-
-export default BotCard;
+ export default BotCard;
