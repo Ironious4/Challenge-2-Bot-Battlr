@@ -50,3 +50,4 @@ That's pretty much it! The code challenge has been successfully completed and su
 
 Additionally you can find the live website of the code challenge in the link below:
 https://ironious4.github.io/Challenge-2-Bot-Battlr/
+NB:This site sometimes takes a minute to load everything,so you may notice some parts are not being rendered immediately.
