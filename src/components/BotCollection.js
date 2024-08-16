@@ -5,7 +5,7 @@ function BotCollection({onAddBot, onBotDelete}) {
   const[bots, setBots]= useState([]); //State to store the list of all bots
 //useEffect hook to fetch bot data
  useEffect(()=> {
-  fetch('https://my-json-server.typicode.com/Ironious4/Challenge-2-Bot-Battlr/bots')
+  fetch('https://challenge-2-bot-battlr.vercel.app/bots')
   .then(response=>response.json())
   .then(data=> {
     setBots(data);
