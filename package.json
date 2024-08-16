@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Ironious4/Challenge-2-Bot-Battlr#readme",
   "dependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+      "postcss": "^8.4.24",
+    "postcss-safe-parser": "^6.0.0"
+
   }
 }
