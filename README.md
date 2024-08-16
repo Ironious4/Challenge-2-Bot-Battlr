@@ -48,5 +48,3 @@ Before we forget,the work is to be submitted to canvas. Simply paste the URL of 
 
 That's pretty much it! The code challenge has been successfully completed and submitted!
 
-Additionally you can find the live website of the code challenge in the link below:
-https://ironious4.github.io/Challenge-2-Bot-Battlr/
