@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/Ironious4/Challenge-2-Bot-Battlr/issues"
   },
-  "homepage": "https://github.com/Ironious4/Challenge-2-Bot-Battlr/#readme",
+  "homepage":":",
   "dependencies": {
     "cors": "^2.8.5",
     "json-serve": "^0.1.0",
